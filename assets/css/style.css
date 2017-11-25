@@ -1,0 +1,52 @@
+body {
+}
+
+#border {
+	height: 57px;
+	border-top: 1px solid darkgrey;
+	border-bottom: 1px solid darkgrey;
+}
+
+#entire_content {
+	width: 960px;
+	margin-left: 120px;
+}
+
+h1 {
+	background:#63AAB0;
+	color: white;
+	margin-right: 200px;
+	margin-left: 120px;
+	margin-bottom: 0;
+	margin-top:0;
+	width: 29%;
+	text-align: center;
+	padding: 10px;
+	float:left;
+}
+
+#About {
+	width: 10%;
+	float:left;
+	text-align: center;
+	margin-top: 20px;
+}
+
+#Portfolio {
+	width: 10%;
+	float:left;
+	text-align: center;	
+	margin-top: 20px;
+}
+
+#Contact {
+	width: 10%;
+	float: left;
+	text-align: center;
+	margin-top: 20px;
+}
+
+h2 {
+	padding: 50px;
+	clear:both;
+}
