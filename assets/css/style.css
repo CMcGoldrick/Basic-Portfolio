@@ -1,4 +1,5 @@
 body {
+	font-family: Arial, 'Georgia', Times, Times New Roman, serif;
 }
 
 #border {
@@ -12,8 +13,23 @@ body {
 	margin-left: 120px;
 }
 
+#main_content{
+	width: 650px;
+	margin-top: 20px;
+    margin-right: 60px;
+    margin-bottom:70px;
+	float:left;
+}
+
+#sidebar{
+	width: 200px;
+	float:left;
+	border-left: 1px solid darkgrey;
+	margin-top: 10px;
+}
+
 h1 {
-	background:#63AAB0;
+	background:#61B04E;
 	color: white;
 	margin-right: 200px;
 	margin-left: 120px;
@@ -47,6 +63,66 @@ h1 {
 }
 
 h2 {
-	padding: 50px;
+	color: #61B04E;
+	margin-top: 5px;
 	clear:both;
+	border-bottom: 1px solid darkgrey;
 }
+
+.profilepic {
+	width: 175px;
+	height: auto;
+	float:left;
+}
+
+p {
+	width:450px;
+	padding: 10px;
+	margin-top: 0;
+	float:left;
+}
+
+p:hover {
+	background-color: #61B04E;
+}
+
+h3 {
+	color: #61B04E;
+	margin-top: 0px;
+	padding: 10px;
+}
+
+.linkedinlogo {
+	margin-left:24px;
+	width: 50px;
+	height: auto;
+}
+
+.gitlogo {
+	margin-left:7px;
+	width: 50px;
+	height: auto;
+}
+
+footer {
+	clear:both;
+	padding: 20px;
+	text-align:center;
+	background-color: #615F5D;
+	color:white;
+	font-size:12px;
+	border-top: 6px solid #61B04E;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
